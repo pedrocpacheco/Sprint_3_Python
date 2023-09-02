@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "rm": "RM9158167013",
+    "name": "Marty Byrde",
+    "email": "martybyrde@porto.com",
+    "role": "ANALYST"
+  },
+  {
+    "id": 2,
+    "rm": "RM5012123049",
+    "name": "Wendy Davis",
+    "email": "wendydavis@porto.com",
+    "role": "ANALYST"
+  }  
+]
