@@ -1,7 +1,7 @@
 import json
 
 def customerByCpf(cpf):
-  with open ("./customers.json") as file:
+  with open ("../api/customers.json") as file:
     data = json.load(file)
     for customer in data:
       if customer["cpf"] == cpf:
@@ -9,7 +9,7 @@ def customerByCpf(cpf):
   print("Customer not found")
 
 def analystByRm(rm):
-  with open ("./analyst.json") as file: 
+  with open ("../api/analyst.json") as file: 
     data = json.load(file)
     for analyst in data:
       if analyst["rm"] == rm:
