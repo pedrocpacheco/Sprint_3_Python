@@ -21,9 +21,3 @@ def findInJson(credential, file):
   for person in data:
     if person["rm"] == credential or person["cpf"] == credential:
       return person
-      
-print("Retornando Customer:")   
-print(customerByCpf("51670111162"))
-
-print("Retornando Analyst: ")
-print(analystByRm("RM9158167013"))
